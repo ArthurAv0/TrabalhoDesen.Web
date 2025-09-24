@@ -13,7 +13,7 @@ public class Endereco{
     private int numero;
     private String complemento;
     private String cep;
-
+    //a
     @OneToOne
     @JoinColumn(name = "cliente_id", referencedColumnName = "id")
     private Cliente cliente;
