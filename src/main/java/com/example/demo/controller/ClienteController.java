@@ -20,6 +20,7 @@ public class ClienteController {
     private List<Cliente> buscarCliente(){
         return clienteService.findAllCliente();
     }
+    // Get
 
     @GetMapping("/{id}")
     private ResponseEntity<Cliente> buscarClientePorId(@PathVariable Long id){

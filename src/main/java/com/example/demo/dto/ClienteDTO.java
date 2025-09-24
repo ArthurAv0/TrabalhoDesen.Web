@@ -11,7 +11,7 @@ public class ClienteDTO {
     private String endereco;
     private String telefone;
 
-    // Construtor completo
+    // a
     public ClienteDTO(Long id, String nome, String cpf, String email,
                       LocalDate dataNascimento, String endereco, String telefone) {
         this.id = id;
